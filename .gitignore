@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pydeps/
+.pydeps_local/
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+.env.local
+!.env.example
+!.env.production.example
+coverage/
+
+# Docker / local tooling
+.docker-local/
+*.log
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Generated app data
+backend/uploads/
+backend/docs/
+
+# Local database snapshots
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
